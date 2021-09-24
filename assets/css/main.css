@@ -78,3 +78,6 @@ p + p {
   padding: 8px 4px;
   display: inline-block;
 }
+.card + .card {
+  margin-top: 24px;
+}
