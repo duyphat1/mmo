@@ -35,9 +35,9 @@ a {
   padding-bottom: 64px;
 }
 .header-icon img {
-  width: 32px;
-  height: 32px;
+  width: 44px;
   margin-top: 32px;
+  border-radius: 8px;
 }
 img + img {
   margin-left: 16px;
