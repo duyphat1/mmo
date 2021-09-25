@@ -29,9 +29,10 @@ a {
 .content {
   text-align: center;
   max-width: 400px;
-  height: 1000px;
+  /* height: 1000px; */
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 64px;
 }
 .header-icon img {
   width: 32px;
@@ -44,7 +45,8 @@ img + img {
 p + p {
   margin-top: 8px;
 }
-.card {
+/* card app */
+.card-app {
   display: flex;
   min-height: 52px;
   border-radius: 8px;
@@ -78,6 +80,42 @@ p + p {
   padding: 8px 4px;
   display: inline-block;
 }
-.card + .card {
+.card-app + .card-app {
   margin-top: 24px;
+}
+/* card link */
+.card-link {
+  color: #fff;
+  background-color: #5379bb;
+  border-radius: 8px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+.click-link__header h3 {
+  font-size: 24px;
+}
+.click-link__desc {
+  line-height: 22px;
+  font-size: 18px;
+  padding: 8px;
+}
+.click-link__link a {
+  background-color: #0d61f2;
+  color: #fff;
+  padding: 12px;
+  display: inline-block;
+  min-width: 158px;
+  border-radius: 20px;
+}
+.card-link + .card-link {
+  margin-top: 8px;
+}
+/* footer */
+.contact a img {
+  height: 44px;
+  width: 44px;
+  border-radius: 12px;
+}
+.contact a + a {
+  margin-left: 8px;
 }
