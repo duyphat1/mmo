@@ -57,8 +57,11 @@ p + p {
   background-color: orange;
 }
 .logo-app img {
-  width: 80%;
+  width: 94%;
+  border-radius: 8px;
+  margin-top: 4px;
 }
+
 .mid-card {
   flex: 2;
   background-color: aqua;
@@ -118,4 +121,17 @@ p + p {
 }
 .contact a + a {
   margin-left: 8px;
+}
+
+/* css riêng */
+
+/* animation */
+@keyframes zoom {
+  to {
+    transform: scale(1.06);
+  }
+}
+
+.zoom {
+  animation: zoom 2s infinite linear forwards;
 }
