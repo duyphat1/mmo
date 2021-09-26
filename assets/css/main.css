@@ -127,11 +127,16 @@ p + p {
 
 /* animation */
 @keyframes zoom {
+  from {
+    transform: scale(1);
+    color: red;
+  }
   to {
-    transform: scale(1.06);
+    transform: scale(1.1);
+    color: blue;
   }
 }
 
 .zoom {
-  animation: zoom 2s infinite linear forwards;
+  animation: zoom 0.5s infinite linear forwards alternate;
 }
